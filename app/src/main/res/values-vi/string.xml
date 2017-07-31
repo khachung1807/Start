@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Đăng nhập BeeMob</string>
+    <string name="text_main_beemob">BEEMOB</string>
+    <string name="text_main_user_name">Tài khoản</string>
+    <string name="text_main_password">Mật khẩu</string>
+    <string name="checkbox_main_remember">Ghi nhớ</string>
+    <string name="button_main_login">ĐĂNG NHẬP</string>
+    <string name="hint_edittext_email">Email hoặc Số điện thoại</string>
+    <string name="hint_edittext_password">Mật khẩu</string>
+    <string name="text_login_beemod_welcome">Chào mừng bạn đến với BeeMob!!!!</string>
+</resources>

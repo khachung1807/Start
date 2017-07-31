@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context="com.example.win81version2.loginbeemob.MainActivity" >
+
+    <TextView
+        android:text="@string/text_main_beemob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/text_big_size"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:layout_width="@dimen/edittext_weight"
+        android:layout_height="@dimen/edittext_height"
+        android:inputType="textPersonName"
+        android:hint="@string/hint_edittext_email"
+        android:textSize="@dimen/text_size"
+        android:background="@drawable/rounded_edittext"
+        android:layout_gravity="center"
+        android:id="@+id/edittext_main_username" />
+
+    <EditText
+        android:layout_width="@dimen/edittext_weight"
+        android:layout_height="@dimen/edittext_height"
+        android:inputType="textPassword"
+        android:hint="@string/hint_edittext_password"
+        android:textSize="@dimen/text_size"
+        android:background="@drawable/rounded_edittext"
+        android:layout_gravity="center"
+        android:id="@+id/edittext_main_password"/>
+
+    <CheckBox
+        android:text="@string/checkbox_main_remember"
+        android:layout_width="@dimen/edittext_weight"
+        android:layout_height="@dimen/edittext_height"
+        android:layout_gravity="center"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/colorText"
+        android:id="@+id/checkbox_main_remember"
+        android:checked="true" />
+
+    <Button
+        android:text="@string/button_main_login"
+        android:layout_width="@dimen/edittext_weight"
+        android:layout_height="@dimen/edittext_height"
+        android:background="@color/colorButton"
+        android:textSize="@dimen/text_size"
+        android:layout_gravity="center"
+        android:id="@+id/button_main_login" />
+</LinearLayout>
